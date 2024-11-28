@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Web Tugas DPK || MyRestro</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+        <!--font awesome cdn link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!--menghubungkan ke css-->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+<!--header section mulai-->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>My Restro</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart" id="shopping-cart"></a>
+    </div>
+
+</header>
+
+<!--header section selesai-->
+
+<!--Form Mencaru-->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="Search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!--home section starts-->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>Nasi Goreng</h3>
+                    <p>Nasi yang digoreng bersama lauk, bumbu dan rempah-rempah khas My Resto.</p>
+                    <a href="#" class="btn">Order Sekarang</a>
+                </div>
+                <div class="image">
+                    <img src="fried rice.jpeg">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>Ayam Goreng</h3>
+                    <p>Ayam yang digoreng dengan bawang putih memiliki rasa yang lezat dan harum.</p>
+                    <a href="#" class="btn">Order Sekarang</a>
+                </div>
+                <div class="image">
+                    <img src="fried chick.jpeg">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>Rendang Daging</h3>
+                    <p>Daging sapi yang dimasak lama bumbu rendang Khas Padang.</p>
+                    <a href="#" class="btn">Order Sekarang</a>
+                </div>
+                <div class="image">
+                    <img src="rendang2.jpg">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!--home section ends-->
+
+<!--dishes section starts-->
+
+<section class="dishes" id="dishes">
+
+ <h3 class="sub-heading"> Menu Kami </h3>
+ <h1 class="heading"> Menu Terbaik Kami! </h3>
+   
+ <div class="box-container">
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="sate1.jpeg" alt="">
+        <h3>Sate Ayam</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rp. 25.000</span>
+        <a href="#" class="btn">Pesan</a>
+    </div>
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="soto2.jpeg" alt="">
+        <h3>Soto Ayam</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rp. 20.000</span>
+        <a href="#" class="btn">Pesan</a>
+    </div>
+    
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="bakso3.jpeg" alt="">
+        <h3>Bakso</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rp. 25.000</span>
+        <a href="#" class="btn">Pesan</a>
+    </div>
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="udbal5.jpeg" alt="">
+        <h3>Udang Balado</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rp. 30.000</span>
+        <a href="#" class="btn">Pesan</a>
+    </div>
+
+     
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="cumbun6.jpeg" alt="">
+        <h3>Cumi Bunting</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rp.35.000</span>
+        <a href="#" class="btn">Pesan</a>
+    </div>
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="cumi2.jpeg" alt="">w
+        <h3>Cumi Cabe Hijau</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rp. 30.000</span>
+        <a href="#" class="btn">Pesan</a>
+    </div>
+
+ </div>
+
+</section>
+
+<!--dishes section ends-->
+
+<!--About Section Starts-->
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading">Tentang</h3>
+    <h1 class="heading">My Restro</h3>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="myresto.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Inilah Kami</h3>
+                <p>MyRestro adalah Restoran yang berdiri di tahun 2015 dengan menyajikan hidangan kuliner Indonesia otentik, seperti rendang Padang, cumi cabe hijau, dan sate Madura, semua dibuat dengan bahan segar dan resep tradisional. Nikmati kelezatan dan kekayaan budaya Nusantara dalam setiap suapan!</p>
+                <p>Kami Siap Menemani Momen-Momen Anda.</p>
+                <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Gratis Ongkir Loh!</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Pembayaran? Gampang!</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>Pelayanan 24/7!</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Pelajari Lebih Lanjut</a>  
+        </div>
+
+    </div>
+
+</section>
+
+<!--About Secction Ends-->
+
+<!--Menu Section Starts-->
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> Menu Kami </h3>
+    <h1 class="heading"> Menu Special Bulan Ini </h3>
+
+        <div class="box-container">
+            
+            <div class="box">
+                <div class="image">
+                    <img src="menu 1.jpeg" alt=""><!--Menu 1-->
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+                    </div>
+                    <h3>Cumi Sambal Hitam</h3>
+                    <p>Cumi Sambal Hitam, cumi segar dengan sambal hitam pedas gurih, menawarkan cita rasa yang kaya dan menggugah selera!</p>
+                    <a href="#" class="btn">Order</a>
+                    <span class="price">Rp 35.000</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu 2.jpeg" alt=""><!--Menu 2-->
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+                    </div>
+                    <h3>Gado-Gado</h3>
+                    <p>Gado-Gado, perpaduan sayuran segar, tahu, tempe, dan telur, disiram dengan saus kacang yang kaya rasa, kental dan nikmat di lidah!</p>
+                    <a href="#" class="btn">Order</a>
+                    <span class="price">Rp 25.000</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu 3.jpeg" alt=""><!--Menu 3-->
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+                    </div>
+                    <h3>Cumi Telur Asin</h3>
+                    <p>Cumi Saus Telur Asin, cumi lembut dengan saus telur asin krimi yang kaya rasa, sempurna untuk pecinta cita rasa unik dan gurih!</p>
+                    <a href="#" class="btn">Order</a>
+                    <span class="price">Rp 35.000</span>
+                </div>
+            </div>
+
+                        <div class="box">
+                <div class="image">
+                    <img src="menu 4.jpeg" alt=""><!--Menu 4-->
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+                    </div>
+                    <h3>Ikan Asam Manis</h3>
+                    <p>Ikan Asam Manis My Restro, ikan segar dengan bumbu asam manis khas yang menggoda, sempurna untuk pengalaman rasa yang tak terlupakan!</p>
+                    <a href="#" class="btn">Order</a>
+                    <span class="price">Rp 40.000</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu 5.jpeg" alt=""><!--Menu 5-->
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+                    </div>
+                    <h3>Lontong Sayur</h3>
+                    <p>Lontong Sayur, hidangan lezat dengan lontong lembut, sayur labu dan kuah santan pedas, siap memanjakan selera Anda!</p>
+                    <a href="#" class="btn">Order</a>
+                    <span class="price">Rp 25.000</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu 6.jpeg" alt=""><!--Menu 6-->
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+                    </div>
+                    <h3>Es Campur Spesial</h3>
+                    <p>Es Campur Spesial, perpaduan segar buah-buahan, cincau, dan sirup manis, sempurna untuk menyegarkan tubuh di setiap suapan!</p>
+                    <a href="#" class="btn">Order</a>
+                    <span class="price">Rp 25.000</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu 7.jpeg" alt=""><!--Menu 7-->
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+                    </div>
+                    <h3>Ikan Kuah Kuning</h3>
+                    <p>Ikan kuah kuning, hidangan ikan segar dengan kuah rempah kunir yang gurih dan kaya rasa, cocok untuk menemani santapan Anda!</p>
+                    <a href="#" class="btn">Order</a>
+                    <span class="price">Rp 45.000</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu 8.jpeg" alt=""><!--Menu 8-->
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+                    </div>
+                    <h3>Dendeng Balado</h3>
+                    <p>Nikmati dendeng balado, potongan daging empuk dengan sambal balado pedas menggugah selera, sempurna untuk pencinta rasa pedas!</p>
+                    <a href="#" class="btn">Order</a>
+                    <span class="price">Rp 40.000</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu 9.jpeg" alt=""><!--Menu 9-->
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars-half-alt"></i>
+                    </div>
+                    <h3>Es Cendol Durian</h3>
+                    <p>Es cendol durian, perpaduan segar cendol kenyal, santan lembut, dan durian manis, sempurna untuk menyegarkan hari Anda!</p>
+                    <a href="#" class="btn">Order</a>
+                    <span class="price">Rp 25.000</span>
+                </div>
+            </div>
+
+        </div>
+
+</section>
+
+<!--Menu Section Ends-->
+
+<!--Review Section Starts-->
+
+<section class="review" id="review">
+    
+    <h3 class="sub-heading"> Review Customer Kami </h3>
+    <h1 class="heading"> Apa Kata Mereka? </h3>
+
+        <div class=" swiper-container review-slider">
+            
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="person 1.jpeg" alt=""> <!--User 1-->
+                        <div class="user-info">
+                            <h3>Christine M.</h3>
+                            <div class="stars">
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Pengalaman makan di My Restro luar biasa! Ikan Asam Manisnya benar-benar enak, bumbunya pas banget dan pelayanannya oke. Pasti akan kembali lagi!</p>
+                </div>
+                
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="person 2.jpeg" alt=""> <!-- User 2-->
+                        <div class="user-info">
+                            <h3>Juanedi P.</h3>
+                            <div class="stars">
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Suasana di My Restro nyaman banget, ditambah dengan Gado-Gadonya yang segar dan saus kacangnya yang enak, makan di sini jadi makin nikmat. Masuk list rekomendasi sih.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="Person 3.jpeg" alt=""> <!--User 3-->
+                        <div class="user-info">
+                            <h3>Nita Sijabat</h3>
+                            <div class="stars">
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Makanan dan minuman disini harganya terjangkau dan untuk kualitas tidak perlu diragukan deh! Five Stars untuk My Restro!</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="person 4.jpeg" alt=""> <!--User 4-->
+                        <div class="user-info">
+                            <h3>Donny Noel</h3>
+                            <div class="stars">
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars"></i>
+                                <i class="fas fa-stars-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Udah coba Dendeng Balado di sini, pedasnya pas dan dagingnya empuk banget. Pasti balik lagi buat coba menu lainnya.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+</section>
+
+<!--Riview Section Ends-->
+
+<!-- Order Section Starts -->
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading"> Order Sekarang! </h3>
+    <h1 class="heading"> Gratis dan Cepat! </h3>
+
+        <form id="order-form">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Nama Anda</span>
+                    <input type="text" placeholder="Masukkan Nama Anda">
+                </div>
+                <div class="input">
+                    <span>Nomor Telepon </span>
+                    <input type="number" placeholder="Masukkan Nama Anda">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Orderan Anda</span>
+                    <input type="text" placeholder="Ketik Orderan">
+                </div>
+                <div class="input">
+                    <span>Makanan Tambahan</span>
+                    <input type="text" placeholder="Ketik Tambahan">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Jumlah Orderan</span>
+                    <input type="number" placeholder="Jumlah Orderan">
+                </div>
+                <div class="input">
+                    <span>Tanggal dan Waktu</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Alamat Anda</span>
+                    <textarea name="" placeholder="Ketik Alamat Anda" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>Catatan Tambahan : </span>
+                    <textarea name="" placeholder="Ketik Catatan Tambahan Disini" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Order Sekarang" class="btn">
+
+        </form>
+
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+
+</section>
+
+<!-- Order Section Ends -->
+
+<!-- Footer Starts -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Lokasi</h3>
+            <a href="#">Jakarta</a>
+            <a href="#">Bogor</a>
+            <a href="#">Depok</a>
+            <a href="#">Tangerang</a>
+            <a href="#">Bekasi</a>
+        </div>
+
+        <div class="box">
+            <h3>Link Cepat</h3>
+            <a href="#">home</a>
+            <a href="#">dishes</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">review</a>
+            <a href="#">order</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#">+62-877-3000-111</a>
+            <a href="#">+62-007-2200-441</a>
+            <a href="#">MyRestroJKTOfficial@gmail.com</a>
+            <a href="#">ThismyrestroJKT@gmail.com</a>
+            <a href="#">Pasar Baru, Jakarta</a>
+        </div>
+
+    <div class="box">
+            <h3>Yuk Follow Kita!</h3>
+            <a href="#" class="social-icon"><i class="fab fa-x"></i> X : @myrestro_ofc</a><br>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i> Instagram : @myrestro_official</a><br>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i> Linkedin : @myrestroid</a>
+    </div>
+    </div>
+
+    <div class="credit"> copyright @ 2024 by <span>mr. web designer x kirr</span></div>
+
+</section>
+
+<!-- Footer Ends -->
+
+<!-- loader part -->
+ <div class="loader-container">
+    <img src="loading 4.gif" alt="">
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--custom js file link-->
+<script src="script.js"></script>
+
+    </body>
+</html>
